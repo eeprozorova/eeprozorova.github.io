@@ -1,34 +1,31 @@
 ---
-title: 'An example conference paper'
+title: 'Управление версиями Git.'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2025-03-16T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-03-16T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: [Управление версиями Git]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Общие понятия: Системы контроля версий (Version Control System, VCS) применяются для совместной работы над проектами. Основное дерево проекта хранится в репозитории, доступ к которому настраивается для участников. Система позволяет фиксировать изменения, совмещать их и откатываться к предыдущим версиям.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -84,4 +81,17 @@ Click the _Cite_ button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the _Slides_ button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+## Системы контроля версий. Общие понятия
+
+Системы контроля версий (Version Control System, VCS) применяются для совместной работы над проектами. Основное дерево проекта хранится в репозитории, доступ к которому настраивается для участников. Система позволяет фиксировать изменения, совмещать их и откатываться к предыдущим версиям.
+
+В классических системах контроля версий используется централизованная модель с единым репозиторием и сервером. Пользователь получает нужную версию файлов, вносит изменения и размещает новую версию. Предыдущие версии не удаляются, к ним можно вернуться. Сервер может использовать дельта-компрессию для уменьшения объёма данных.
+
+Системы поддерживают отслеживание и разрешение конфликтов, автоматическое или ручное объединение изменений, отмену изменений, блокировку файлов для изменения. Доступ к журналу изменений можно ограничить.
+
+В распределённых системах контроля версий центральный репозиторий необязателен. Известны распределённые системы Git, Bazaar, Mercurial. Они схожи по принципам работы, отличаются синтаксисом команд.
+
+## Примеры использования git
+
+- Git представляет собой набор программ командной строки, доступ к которым осуществляется через команду git.
+- Резервную копию локального хранилища можно сделать простым копированием или архивацией.
