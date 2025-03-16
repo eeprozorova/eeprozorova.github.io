@@ -25,10 +25,10 @@ publication_types: [Управление версиями Git]
 
 # Publication name and optional abbreviated publication name.
 
-Общие понятия: Системы контроля версий (Version Control System, VCS) применяются для совместной работы над проектами. Основное дерево проекта хранится в репозитории, доступ к которому настраивается для участников. Система позволяет фиксировать изменения, совмещать их и откатываться к предыдущим версиям.
+Общие понятия: Системы контроля версий (VCS) используются для совместной работы над проектами, сохраняя изменения в репозитории. Они позволяют фиксировать, совмещать и откатывать изменения, а также разрешать конфликты. Существуют централизованные и распределённые системы, такие как Git, Bazaar и Mercurial. Git работает через командную строку и поддерживает резервное копирование локального хранилища..
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Системы контроля версий (VCS) позволяют сохранять, отслеживать и откатывать изменения в проектах. Они бывают централизованные и распределённые, например, Git, Bazaar и Mercurial. Git работает через командную строку и поддерживает резервное копирование.
 
 tags:
   - Large Language Models
@@ -44,11 +44,7 @@ featured: true
 url_pdf: ''
 url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_poster: ''
-url_project: ''
-url_slides: ''
 url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
