@@ -76,7 +76,7 @@ skills:
       - name: Книги
         description: ''
         percent: 80
-        icon: book
+        icon: books
 
 Языки:
   - name: Russian
