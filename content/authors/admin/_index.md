@@ -79,11 +79,11 @@ skills:
         icon: book
 
 Языки:
-  - name: Русский
+  - name: Russian
     percent: 100
-  - name: Английский
-    percent: 75
-  - name: Немецкий
+  - name: English
+    percent: 80
+  - name: German
     percent: 10
     
 ---
