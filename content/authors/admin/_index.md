@@ -85,7 +85,8 @@ skills:
     percent: 75
   - name: Немецкий
     percent: 10
-
+    
+---
 
 ## About Me
  
