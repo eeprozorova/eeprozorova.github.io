@@ -1,12 +1,12 @@
 ---
-title: "An example preprint / working paper"
+title: "Язык разметки Markdown"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+date: "2025-04-04"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-04-04T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -17,13 +17,13 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Markdown — это простой и удобный язык разметки, предназначенный для форматирования текста. Он позволяет быстро создавать структурированные документы с помощью легко читаемого синтаксиса. Широко используется для написания README-файлов, документации и веб-контента..
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Markdown — это лёгкий язык разметки для форматирования текста с простым синтаксисом. Он часто используется в документации, блогах и README-файлах.
 
 tags:
-- Large Language Models
+- Язык разметки Markdown
 
 featured: true
 
@@ -62,10 +62,46 @@ projects:
 slides: example
 ---
 
-This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+## . Базовые сведения о Markdown
+Чтобы создать заголовок, используйте знак #, например:
+"# This is heading 1"
+"## This is heading 2"
+"### This is heading 3"
+"#### This is heading 4"
+Чтобы задать для текста полужирное начертание, заключите его в двойные звездочки:
+This text is "**bold**."
+Чтобы задать для текста курсивное начертание, заключите его в одинарные звездочки:
+This text is "*italic*"
+Чтобы задать для текста полужирное и курсивное начертание, заключите его в тройные
+звездочки:
+This is text is both "***bold and italic***"
+Блоки цитирования создаются с помощью символа >:
+"> The drought had lasted now for ten million years, and the reign of the.."
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Упорядоченный список можно отформатировать с помощью соответствующих цифр:
+1. First instruction
+1. Sub-instruction
+1. Sub-instruction
+1. Second instruction
+Чтобы вложить один список в другой, добавьте отступ для элементов дочернего списка:
+1. First instruction
+1. Second instruction
+1. Third instruction
+Неупорядоченный (маркированный) список можно отформатировать с помощью звездочек или тире:
+* List item 1
+* List item 2
+* List item 3
+Чтобы вложить один список в другой, добавьте отступ для элементов дочернего списка:
+- List item 1
+- List item A
+- List item B
+- List item 2
+Синтаксис Markdown для встроенной ссылки состоит из части [link text], представляющей текст гиперссылки, и части (file-name.md) – URL-адреса или имени файла, на который
+дается ссылка:
+[link text](file-name.md)
+или
+[link text](http://example.com/ "Необязательная подсказка")
+Markdown поддерживает как встраивание фрагментов кода в предложение, так и их размещение между предложениями в виде отдельных огражденных блоков. Огражденные блоки
+кода — это простой способ выделить синтаксис для фрагментов кода. Общий формат огражденных блоков кода:
+``` language
+your code goes in here
