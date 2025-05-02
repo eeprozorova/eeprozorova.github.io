@@ -7,19 +7,8 @@ type: landing
 design:
   # Default section spacing
   spacing: "6rem"
-        
-    design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+
+sections:    
   - block: markdown
     content:
     design:
