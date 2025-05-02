@@ -1,46 +1,31 @@
 ---
-title: "An example journal article"
+title: "Создание презентаций."
 authors:
 - admin
-- Robert Ford
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2025-05-02T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-05-02T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types: ["making-presentation"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: При подготовке презентации для научной работы важно создать титульный слайд с названием, автором, преподавателем и организацией. Кратко изложите актуальность, цель и методы исследования, а также опишите основные этапы работы, данные и их анализ. Визуализируйте результаты с помощью графиков и таблиц, сделайте выводы и подчеркните их значимость. Соблюдайте единый стиль оформления и следите за временем выступления.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: В презентации для научной работы необходимо кратко изложить актуальность, цель, методы и этапы исследования. Важно визуализировать результаты и сделать выводы, подчеркнув их значимость. Оформление должно быть единым, а время подачи материала — продуманным.
 
 tags:
 - Source Themes
 featured: false
-
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -49,27 +34,50 @@ image:
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+## Презентация
+Презентации должна быть подготовлен в формате markdown.
+Структура презентации:
+Титульный слайд:
+название работы;
+полное ФИО автора;
+полное ФИО преподавателя (с указанием научной степени, звания, должности);
+название организации.
+Содержание (опционально).
+Информация о докладчике
+Обычно делается в виде двух столбцов:
+фотография докладчика;
+информация о докладчике, его регалии, должность, звание.
+Вводная часть.
+Актуальность темы.
+Объект и предмет исследования.
+Научная новизна.
+Практическая значимость работы.
+Цель, гипотеза, задачи исследования.
+Материалы и методы и инструменты исследования, теоретическая база.
+Содержание исследования:
+предлагаемое решение задач исследования с обоснованием;
+основные этапы работы.
+Анализ и практическая значимость достигнутых результатов.
+Общее заключение и выводы.
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+## Выступление
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+# Структура
+количество слайдов соответствует содержанию и продолжительности выступления (для 7-минутного выступления рекомендуется использовать не более 10 слайдов);
+наличие титульного слайда и слайда с выводами.
+# Наглядность
+иллюстрации хорошего качества, с чётким изображением, текст легко читается;
+используются средства наглядности информации (таблицы, схемы, графики и т. д.).
+# Дизайн и настройка
+оформление слайдов соответствует теме, не препятствует восприятию содержания;
+для всех слайдов презентации используется один и тот же шаблон оформления.
+# Содержание
+презентация отражает основные этапы исследования (проблема, цель, гипотеза, ход работы, выводы, ресурсы);
+содержит полную, понятную информацию по теме работы;
+орфографическая и пунктуационная грамотность.
+Требования к выступлению
+выступающий свободно владеет содержанием, ясно и грамотно излагает материал;
+выступающий свободно и корректно отвечает на вопросы и замечания аудитории;
+выступающий точно укладывается в рамки регламента.
