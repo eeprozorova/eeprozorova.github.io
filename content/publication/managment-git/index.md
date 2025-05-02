@@ -69,14 +69,6 @@ projects:
 slides: example
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
 ## Системы контроля версий. Общие понятия
 
 Системы контроля версий (Version Control System, VCS) применяются для совместной работы над проектами. Основное дерево проекта хранится в репозитории, доступ к которому настраивается для участников. Система позволяет фиксировать изменения, совмещать их и откатываться к предыдущим версиям.

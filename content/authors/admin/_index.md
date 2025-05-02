@@ -35,6 +35,20 @@ profiles:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/eeprozorova
+    icon: brands/eLibrary
+    url: https://www.elibrary.ru/project_user_office.asp
+    icon: brands/Google Scholar
+    url: https://scholar.google.com/citations?view_op=new_articles&hl=ru&imq=Елизавета+Евгеньевна+Прозорова&authuser=1#
+    icon: brands/ORCID
+    url: https://orcid.org/my-orcid?orcid=0009-0008-1966-7063&justRegistered=true
+    icon: brands/Mendeley 
+    url: https://id.elsevier.com/as/authorization.oauth2?state=89517b1d79cb8cd27b724244cadfecae&prompt=login&scope=openid%20email%20profile%20els_auth_info%20els_analytics_info%20urn%3Acom%3Aelsevier%3Aidp%3Apolicy%3Aproduct%3Aindv_identity&authType=SINGLE_SIGN_IN&response_type=code&platSite=MDY%2Fmendeley&redirect_uri=https%3A%2F%2Fwww.mendeley.com%2Fcallback%2F&client_id=MENDELEY
+    icon: brands/ResearchGate 
+    url: https://www.researchgate.net/signup.SignUp.html=Елизавета+Евгеньевна+Прозорова&authuser=1#
+    icon: brands/Academia.edu
+    url: https://www.academia.edu/signup=Елизавета+Евгеньевна+Прозорова&authuser=1#
+    icon: brands/arXiv 
+    url: https://arxiv.org/user/register?submit=Елизавета+Евгеньевна+Прозорова&authuser=1#
 
 interests:
   - Математика
