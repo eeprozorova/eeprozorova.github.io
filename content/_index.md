@@ -44,7 +44,7 @@ sections:
       text: ""
       filters:
         folders:
-          - publication
+          - post
         exclude_featured: false
     design:
       view: citation
