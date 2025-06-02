@@ -101,6 +101,3 @@ skills:
     percent: 10
     
 ---
-
-## About Me
- 
