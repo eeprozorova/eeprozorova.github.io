@@ -1,7 +1,7 @@
 ---
 title: "Этап №1 — Внешний курс"
 summary: "Отчёт по курсу 'Введение в Linux'"
-date: 2025-06-02
+draft: false
 authors:
   - admin
 tags:
@@ -9,8 +9,6 @@ tags:
   - виртуализация
   - fedora
   - обучение
-image:
-  caption: ""
 ---
 # Цель работы
 
