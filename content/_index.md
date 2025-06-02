@@ -38,18 +38,27 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - - block: collection
-    id: publications
-    content:
-      title: Recent Publications
-      page_type: post
-      count: 3
-    design:
-      view: citation
-    design:
-      view: article-grid
-      columns: 1
- - block: cta-card
+- block: collection
+  id: publications
+  content:
+    title: Recent Publications
+    page_type: post
+    count: 3
+    filters:
+      author: ""
+      category: ""
+      tag: ""
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      publication_type: ""
+    offset: 0
+    order: desc
+  design:
+    view: date-title-summary
+    spacing:
+      padding: [0, 0, 0, 0]
+- block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
       title: 👉 Build your own academic website like this
